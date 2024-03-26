@@ -1,5 +1,5 @@
 :root {
-    --main-font-family: Arial, Helvetica, sans-serif;
+    --main-font-family: Verdana, Helvetica, sans-serif;
 }
 
 body {
@@ -11,8 +11,8 @@ body {
 
 header {
     display: flex;
-    background-color: #f74d00;
-    padding: 5px;
+    background-color: #ff6600;
+    padding: 2px;
     margin: 20px 0 0 0;
 }
 
@@ -20,7 +20,7 @@ header {
     font-family: var(--main-font-family);
     color: #fff;
     border: 1px solid #fff;
-    font-size: 20px;
+    font-size: 12pt;
     width: 20px;
     height: 20px;
     text-align: center;
@@ -30,8 +30,8 @@ header {
 h1 {
     font-family: var(--main-font-family);
     font-weight: bold;
-    font-size: 20px;
-    margin: 0px;
+    font-size: 10pt;
+    margin: 2px 0 0 0;
 }
 
 nav ul {
@@ -39,6 +39,7 @@ nav ul {
     margin: 2px 5px 0 10px;
     padding: 0;
     font-family: var(--main-font-family);
+    font-size: 10pt;
 }
 
 .begLi {
@@ -56,30 +57,34 @@ nav ul {
 
 .login {
     padding: 0 5px 5px 5px;
-    margin-left: 399px;
+    margin-left: 448px;
     float: right;
 }
 
 main {
     background-color: #f4f4eb;
-    padding: 10px;
+    padding: 5px 0 5px 0;
 }
 
 ol {
     list-style-type: decimal;
     font-family: var(--main-font-family);
+    font-size: 10pt;
     color: #878787;
+    padding-inline-start: 25px;
 }
 
 ol li h2 {
     color: #000;
-    font-size: 16px;
+    font-size: 10pt;
     display: inline-block;
+    font-weight: normal;
     margin: 0 4px 0 4px;
 }
 
 ol li h3 {
-    font-size: 14px;
+    font-size: 8pt;
+    font-weight: normal;
     display: inline-block;
     margin-left: 5px;
     margin: 0 4px 0 4px;
@@ -87,7 +92,7 @@ ol li h3 {
 
 main ul {
     list-style-type: none;
-    font-size: 10px;
+    font-size: 7pt;
     font-family: var(--main-font-family);
     color: #878787;
     margin-top: 5px;
@@ -106,4 +111,15 @@ main .endLi {
     display: inline-block;
     padding: 0 5px 5px 5px;
     margin: 0;
+}
+
+.arrow {
+    float: left;
+    padding-top: 3px;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top: 0;
+    border-bottom: 10px solid #878787;
+
 }
