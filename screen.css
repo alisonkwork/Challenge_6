@@ -36,7 +36,7 @@ h1 {
 
 nav ul {
     list-style-type: none;
-    margin: 2px 5px 0 10px;
+    margin: 2px 2px 0 10px;
     padding: 0;
     font-family: var(--main-font-family);
     font-size: 10pt;
@@ -45,18 +45,18 @@ nav ul {
 .begLi {
     display: inline-block;
     border-right: 1px solid #000;
-    padding: 0 5px 5px 5px;
+    padding: 0 5px 0 5px;
     margin: 0;
 }
 
 .endLi {
     display: inline-block;
-    padding: 0 5px 5px 5px;
+    padding: 0 5px 0px 5px;
     margin: 0;
 }
 
 .login {
-    padding: 0 5px 5px 5px;
+    padding: 0 5px 0px 5px;
     margin-left: 448px;
     float: right;
 }
@@ -122,4 +122,11 @@ main .endLi {
     border-top: 0;
     border-bottom: 10px solid #878787;
 
+}
+
+footer {
+    display: flex;
+    background-color: #ff6600;
+    padding: 2px;
+    margin: 20px 0 0 0;
 }
